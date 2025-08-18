@@ -20,9 +20,9 @@ E: NA
 */
 
 function reverseString(str) {
-  let chars = str.split("");
-  let reversed = chars.reverse();
-  return reversed.join("");
+  let chars = str.split(""); // break the string into an array of characters
+  let reversed = chars.reverse(); // reverse the array
+  return reversed.join(""); // join the array back into a string
 }
 console.log(reverseString("hello"));
 
