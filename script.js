@@ -50,3 +50,11 @@ function twoSums(nums, target) {
   }
   return []; // if no pair is found return empty array
 }
+
+// map arrow function exponents
+
+const numbers = [1, 2, 3, 4];
+
+const exponentialNumbers = numbers.map((number) => number * number);
+
+console.log(exponentialNumbers);
