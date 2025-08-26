@@ -1,5 +1,12 @@
 /*
 Problem: FizzBuzz
+Description:
+  Given an integer n, print the numbers from 1 to n (inclusive) with these rules:
+    - If a number is divisible by both 3 and 5, print "FizzBuzz"
+    - If divisible by 3 (but not 5), print "Fizz"
+    - If divisible by 5 (but not 3), print "Buzz"
+    - Otherwise, print the number itself
+
 I: A number n
 O: Print numbers from 1 to n,
    - "Fizz" for multiples of 3,
@@ -8,13 +15,6 @@ O: Print numbers from 1 to n,
 C: n >= 1
 E: Small numbers (like n=1), multiples of 3/5 overlap
 
-Approach:
-1) Loop from 1 to n.
-2) If divisible by 3 and 5 → "FizzBuzz"
-3) Else if divisible by 3 → "Fizz"
-4) Else if divisible by 5 → "Buzz"
-5) Else → the number
-Complexity: time O(n), space O(1)
 */
 
 function fizzBuzz(n) {

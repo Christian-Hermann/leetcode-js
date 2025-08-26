@@ -11,14 +11,6 @@ E: empty string "" → true
    "A man, a plan, a canal: Panama" → true
    "race a car" → false
 
-Approach:
-1) Convert to lowercase.
-2) Remove non-alphanumeric characters.
-3) Reverse string and compare to original.
-
-Complexity:
-  Time: O(n)
-  Space: O(n)
 */
 
 function isPalindrome(str) {

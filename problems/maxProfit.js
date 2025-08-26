@@ -15,18 +15,6 @@ E:
   - prices always decreasing → profit = 0
   - single price → profit = 0
 
-Approach (pseudocode):
-1) Track the minimum price seen so far (start with Infinity).
-2) Track the maximum profit (start with 0).
-3) For each price:
-   - update minPrice if current price < minPrice
-   - calculate profit = price - minPrice
-   - update maxProfit if profit > maxProfit
-4) Return maxProfit.
-
-Complexity:
-  Time: O(n) (one pass through prices)
-  Space: O(1)
 */
 
 function maxProfit(prices) {
