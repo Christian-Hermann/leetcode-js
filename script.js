@@ -11,3 +11,6 @@
 // import "./problems/sumToN.js";
 // import "./problems/twoSums.js";
 // import "./problems/validPalindrome.js";
+
+const ACTIVE = "warmups/fizzBuzz.js";
+import(`./problems/${ACTIVE}`);
