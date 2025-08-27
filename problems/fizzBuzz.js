@@ -19,7 +19,9 @@ E: Small numbers (like n=1), multiples of 3/5 overlap
 
 function fizzBuzz(n) {
   for (let i = 1; i <= n; i++) {
+    // loop through the array starting at 1
     if (i % 3 === 0 && i % 5 === 0) {
+      // check if multiples 3 and 5
       console.log("FizzBuzz");
     } else if (i % 3 === 0) {
       console.log("Fizz");
