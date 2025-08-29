@@ -12,7 +12,7 @@ function sumArray(arr) {
   });
   return total;
 }
-// ✅ Tests (uncomment after you implement)
+// ✅ Tests
 // console.log("Part 2");
 // console.log(sumArray([1, 2, 3]) === 6, "sumArray([1,2,3]) → 6");
 // console.assert(sumArray([]) === 0, "sumArray([]) → 0");

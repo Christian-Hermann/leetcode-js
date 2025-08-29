@@ -9,9 +9,12 @@ E: empty string should return ""
 */
 
 function reverseString(str) {
-  let chars = str.split(""); // Step 1
-  let reversed = chars.reverse(); // Step 2
-  return reversed.join(""); // Step 3
+  // use split to break into an array
+  let chars = str.split("");
+  // reverse the chars
+  let reversed = chars.reverse();
+  // return reversed with join
+  return reversed.join("");
 }
 
 // ✅ Tests

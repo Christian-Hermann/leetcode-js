@@ -1,2 +1,2 @@
-const ACTIVE = "warmups/fizzBuzz.js";
+const ACTIVE = "strings/reverseWords.js";
 import(`./problems/${ACTIVE}`);

@@ -22,7 +22,7 @@ function maxInArray(arr) {
     return max;
   }
 }
-// ✅ Tests (uncomment after you implement)
+// ✅ Tests
 // console.log("Part 3");
 // console.log(maxInArray([1, 5, 3]) === 5, "maxInArray([1,5,3]) → 5");
 // console.assert(maxInArray([-10,-3,-20]) === -3, "maxInArray([-10,-3,-20]) → -3");
