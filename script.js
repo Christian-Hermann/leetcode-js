@@ -1,2 +1,2 @@
-const ACTIVE = "arrays/mapArrow.js";
+const ACTIVE = "arrays/reduceNum.js";
 import(`./problems/${ACTIVE}`);
