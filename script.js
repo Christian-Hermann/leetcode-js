@@ -1,2 +1,2 @@
-const ACTIVE = "strings/reverseWords.js";
+const ACTIVE = "arrays/mapArrow.js";
 import(`./problems/${ACTIVE}`);

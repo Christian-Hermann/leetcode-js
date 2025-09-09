@@ -4,24 +4,8 @@
      Edge: [] → null
      Hint search: mdn Math.max (but try a loop first)
   ---------------------------------------- */
-function maxInArray(arr) {
-  // TODO: implement
-  // check if length is zero, return null if so
-  if (arr.length === 0) {
-    return null;
-  }
-  // set max to first index in array
-  let max = arr[0];
-  // loop though array
-  for (let i = 1; i < arr.length; i++) {
-    // if arr[i] is greater than max set the new max
-    if (arr[i] > max) {
-      max = arr[i];
-    }
-    // return max
-    return max;
-  }
-}
+function maxInArray(arr) {}
+
 // ✅ Tests
 // console.log("Part 3");
 // console.log(maxInArray([1, 5, 3]) === 5, "maxInArray([1,5,3]) → 5");

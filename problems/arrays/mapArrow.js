@@ -7,10 +7,12 @@ E: empty array should return empty array
 
 */
 
-function squareNumbers(numbers) {
-  return numbers.map((number) => number * number);
+function mapArrow(numbers) {
+  return numbers.map((num) => num * 2);
 }
 
-// Tests
-console.log(squareNumbers([1, 2, 3, 4])); // [1, 4, 9, 16]
-console.log(squareNumbers([])); // []
+console.log(mapArrow([4, 6, 10]));
+
+function filterNums(numbers) {
+  return numbers.filter((num) => num % 2 === 0);
+}

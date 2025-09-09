@@ -4,14 +4,7 @@
      Edge: [] → 0
      Hint search: mdn array forEach
   ---------------------------------- */
-function sumArray(arr) {
-  // TODO: implement
-  let total = 0;
-  arr.forEach((item) => {
-    total += item;
-  });
-  return total;
-}
+function sumArray(arr) {}
 // ✅ Tests
 // console.log("Part 2");
 // console.log(sumArray([1, 2, 3]) === 6, "sumArray([1,2,3]) → 6");
